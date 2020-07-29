@@ -13,6 +13,7 @@ void ShowErroMessage(string message)
 
 int main()
 {
+	cout << "[ TCP Echo Server Ver2.0]" << endl;
 	WSADATA wsaData;
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAdress, clientAdress;
